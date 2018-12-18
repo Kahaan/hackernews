@@ -1,0 +1,11 @@
+service: database
+stage: dev
+
+datamodel: datamodel.graphql
+
+# to enable auth, provide
+# secret: my-secret
+secret: "mysecret123"
+disableAuth: true
+
+cluster: local
